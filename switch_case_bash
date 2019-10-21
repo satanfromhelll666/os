@@ -1,0 +1,11 @@
+read str1
+
+
+case $str1 in
+      "yes") echo "it is yes"
+       	     echo "hello world";;
+       "No") echo "it is a no";;
+          *) echo "something else"
+esac
+
+
