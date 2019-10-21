@@ -1,0 +1,6 @@
+echo "total number of "
+for var in $*
+do
+   echo "$a number argument is $var"
+   a=`expr $a + 1`
+done
