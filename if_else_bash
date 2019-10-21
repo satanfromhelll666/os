@@ -1,0 +1,14 @@
+#!/bin/bash
+
+read str1
+read str2
+
+if [ $str1 = $str2 ]
+then
+    echo "same string"
+elif [[ $str1 != $str2 ]]
+then
+    echo "different string"
+else
+    echo "else"
+fi
